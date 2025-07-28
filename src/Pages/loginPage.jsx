@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "../components/footer";
-import Navbar from "../components/navbar";
+import Footer from "../Components/footer";
+import Navbar from "../Components/navbar";
 import LoginForm from "../Components/loginForm";
 import img10 from "../assets/imagens/img10.png"
 
