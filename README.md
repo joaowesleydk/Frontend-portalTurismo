@@ -1,12 +1,18 @@
-# React + Vite
+## Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O frontend do PortalTurismo é desenvolvido utilizando **React** com o bundler **Vite**, garantindo uma aplicação rápida e moderna.
 
-Currently, two official plugins are available:
+### Estrutura do Frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `src/`: Contém todo o código-fonte React, incluindo componentes, páginas, serviços e estilos.
+- `public/`: Arquivos estáticos que são servidos diretamente, como o `index.html`.
+- `assets/`: Imagens, fontes e outros arquivos estáticos utilizados no projeto.
+- `.env`: Arquivo de variáveis de ambiente, usado para configurar URLs da API, chaves e outras configurações.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Como executar o frontend localmente
+
+1. Navegue até a pasta do frontend:
+   ```bash
+   cd frontend
